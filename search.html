@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie-Search Application</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="./search.js"></script>
+</head>
+
+<body>
+    <div class="maincontainer">
+        <nav>
+            <h2>The Movie Search</h2>
+            <div class="secondcontainer">
+                <a href="./index.html">Home</a>
+                <a href="./search.html">Search</a>
+            </nav>
+            
+
+        </div>
+
+    </div>
+    <div class="inputcontainer">
+        <div class="searchinput">
+            <select id="selectinput">
+                <option id="movie" value="movie">Movie</option>
+                <option id="tv" value="tv">Series</option>
+            </select>
+            <input type="text"  id="inputsearch">
+            <button onclick="find()">Search
+            </button>
+        </div>
+       
+        <hr />
+
+
+    </div>
+    <div id="result"class="result">
+        <div id="cards" class="cards">
+
+
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+
+</html>
